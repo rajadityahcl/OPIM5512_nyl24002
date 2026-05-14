@@ -1,27 +1,24 @@
-# OPIM5512_nyl24002
+# A01_5512: California Housing Boxplot
 
-Welcome! This repository is the landing hub for Aditya Raj's OPIM 5512: Data Science Using Python. It contains starter code, notebooks, and guides organized into five learning modules. Use this README to find materials, set up the environment, and start taking Data Science chops to the next level.
+This project creates a boxplot using the California Housing dataset from scikit-learn.
 
-📚 Modules
+## Purpose
 
-#	Module: What's inside?
+The goal of this assignment is to practice GitHub repository setup, branching workflow, Pull Requests, and running a simple Python visualization script.
 
-1	Setting up Tech Stack	Git/GitHub, VS Code, Conda/venv, notebooks, reproducibility, PR workflow.
+## Dataset
 
-2	Hyperparameter Tuning and xAI (Explainable ML)	Interpretable models, feature importance, partial dependence, model reporting.
+This project uses the California Housing dataset from `sklearn.datasets.fetch_california_housing`.
 
-3	Web Scraping & Cloud Resources	BeautifulSoup basics, ETL, cloud jobs (GCP) & storage.
+## Files
 
-4	Time Series Analytics	Resampling, decomposition, TSFresh, forecasting workflow & evaluation.
+- `src/boxplot.py`: Python script that loads the dataset and creates a boxplot
+- `figs/boxplot.png`: Saved output image
+- `requirements.txt`: Python libraries needed to run the project
 
-5	Text Analytics	Cleaning text, tokenization, embeddings, basic classifiers.
+## How to Run
 
-Each module folder includes Week#/ subfolders, notebooks, and a README_Module#.md with specific instructions.
+First install the required packages:
 
-🚀 Getting Started
-
-Clone this repo
-
-git clone https://github.com/rajadityahcl/OPIM5512_nyl24002.git
-
-cd OPIM5512
+```bash
+pip install -r requirements.txt
